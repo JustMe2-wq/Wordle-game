@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/app.js"></script>
+  <title>Wordle</title>
+</head>
+
+<body>
+  <div id="game-container">
+    <h1> <u>Wordle Game</u> </h1>
+
+    <h2>You have 6 attempts to guess the randomized 5 letter word.</h2>
+    <h3>Each guess must be a valid 5 letter word, hit the enter key to submit. After each guess, 
+    the color</h3>
+    <h3>of the tiles will change to show how close your guesses were to the word. </h3>
+    <br>
+    <h3>Green = correct letter and position</h3>
+    <h3>Yellow = correct letter but wrong position</h3>
+    <h3>Red = letter not in word</h3>
+    <h3 id="wish">Good Luck!!!</h3>
+
+    <div id="board"></div>
+    <div id="keyboard"></div>
+    <div id="message"></div>
+    <button id="reset">Restart</button>
+
+  </div>
+</body>
+
+</html>

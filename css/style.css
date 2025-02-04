@@ -1,0 +1,86 @@
+body {
+    font-family: times;
+    background-color: rgb(0, 242, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-gap: 5px;
+    margin: 0 auto 20px;
+    justify-content: center;
+}
+
+#wish {
+    color: rgb(0, 60, 255);
+    font-size: 2rem;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 242, 255);
+    color: rgb(0, 0, 0);
+}
+
+.tile.correct {
+    background-color: green;
+}
+
+.tile.present {
+    background-color: yellow;
+}
+
+.tile.absent {
+    background-color: rgb(255, 0, 0);
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+}
+
+.key {
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 60, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.key.large {
+    grid-column: span 2;
+}
+
+.key.disabled {
+    background-color: rgb(0, 242, 255);
+    color: rgb(0, 242, 255);
+    pointer-events: none;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
