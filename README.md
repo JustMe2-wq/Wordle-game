@@ -27,6 +27,10 @@ The answers consist of five different words that are randomizes each time the ga
 
 * Fix the backspace button and prettier colors on the screen.
 
+* Add more words to the game to create a more challenging experience and maybe romave giving the answer for those that really want a challenge.
+
+* A score sheet for players to keep track of previous games and results to encourage in provement.
+
 ## Sources
 
 Image up top was created by Drew Patty from [Medium](https://medium.com/floodgates/the-complete-and-authoritative-list-of-wordle-spinoffs-fb00bfafc448)
